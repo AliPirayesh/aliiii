@@ -7,14 +7,7 @@ aleo smart contract
 
 
 
-cd $HOME
-
-mkdir demo_deploy_Leo_app && cd demo_deploy_Leo_app
-
-WALLETADDRESS=""
-
-APPNAME=helloworld_"${WALLETADDRESS:4:6}"
-
+cd $
 leo new "${APPNAME}"
 
 PATHTOAPP=$(realpath -q $APPNAME)
